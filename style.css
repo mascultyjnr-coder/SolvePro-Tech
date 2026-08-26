@@ -591,3 +591,20 @@ footer p {
     }
 
 }
+@media (max-width: 800px) {
+
+    .hero {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+    .hero-text-area {
+        width: 100%;
+        padding: 0 5px;
+    }
+
+    .hero-description {
+        padding: 0 5px;
+    }
+
+}
