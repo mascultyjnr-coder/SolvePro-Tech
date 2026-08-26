@@ -7,7 +7,8 @@
 
     <title>Ndifreke Okon | Web Designer & Developer</title>
 
-    <meta name="description" content="Ndifreke Okon - Web Designer and Developer creating clean, responsive and user-friendly websites.">
+    <meta name="description"
+        content="Ndifreke Okon - Web Designer, Developer and Tech Consultant.">
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -16,19 +17,17 @@
 
 <header>
 
-    <nav>
+    <nav class="navbar">
 
         <a href="#" class="logo">Ndifreke.</a>
 
         <div class="nav-links">
-
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
             <a href="#services">Services</a>
             <a href="#projects">Projects</a>
             <a href="#process">Process</a>
             <a href="#contact">Contact</a>
-
         </div>
 
     </nav>
@@ -38,42 +37,160 @@
 
 <main>
 
+
 <!-- HERO -->
 
 <section class="hero">
 
-    <p class="intro">
-        Hello, I'm Ndifreke Okon
-    </p>
+    <div class="hero-content">
 
-    <h1>
-        Web Designer &<br>
-        Developer.
-    </h1>
+        <div class="profile-area">
 
-    <p class="hero-text">
-        I design and build clean, responsive and user-friendly
-        websites that help businesses create a strong presence online.
-    </p>
+            <div class="profile-placeholder">
+                <span>Your Photo</span>
+            </div>
 
-    <div class="hero-buttons">
+        </div>
 
-        <a href="#projects" class="btn primary">
-            View My Work
-        </a>
 
-        <a href="#contact" class="btn secondary">
-            Let's Work Together
-        </a>
+        <div class="hero-text-area">
+
+            <p class="intro">
+                Hello, I'm Ndifreke Okon
+            </p>
+
+            <h1>
+                Web Designer &
+                <br>
+                Developer.
+            </h1>
+
+            <p class="hero-description">
+                I design and build clean, responsive and user-friendly websites
+                that help businesses create a strong presence online.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn primary">
+                    View My Work
+                </a>
+
+                <a href="#contact" class="btn secondary">
+                    Let's Work Together
+                </a>
+
+            </div>
+
+        </div>
 
     </div>
 
 </section>
 
 
+
+<!-- GRID NAVIGATION -->
+
+<section class="grid-navigation">
+
+    <a href="#about" class="grid-card">
+
+        <span class="card-number">01</span>
+
+        <h3>About Me</h3>
+
+        <p>
+            I don't just want to create a website.
+            I want to understand your dream.
+        </p>
+
+        <span class="card-link">Explore →</span>
+
+    </a>
+
+
+    <a href="#skills" class="grid-card">
+
+        <span class="card-number">02</span>
+
+        <h3>Skills</h3>
+
+        <p>
+            The tools and technologies I work with.
+        </p>
+
+        <span class="card-link">Explore →</span>
+
+    </a>
+
+
+    <a href="#services" class="grid-card">
+
+        <span class="card-number">03</span>
+
+        <h3>Services</h3>
+
+        <p>
+            Practical digital services built around your needs.
+        </p>
+
+        <span class="card-link">Explore →</span>
+
+    </a>
+
+
+    <a href="#projects" class="grid-card">
+
+        <span class="card-number">04</span>
+
+        <h3>Projects</h3>
+
+        <p>
+            What I'm building and working on.
+        </p>
+
+        <span class="card-link">Explore →</span>
+
+    </a>
+
+
+    <a href="#process" class="grid-card wide">
+
+        <span class="card-number">05</span>
+
+        <h3>My Process</h3>
+
+        <p>
+            From idea to reality.
+        </p>
+
+        <span class="card-link">See how I work →</span>
+
+    </a>
+
+
+    <a href="#contact" class="grid-card wide">
+
+        <span class="card-number">06</span>
+
+        <h3>Contact</h3>
+
+        <p>
+            Have an idea? Let's talk.
+        </p>
+
+        <span class="card-link">Get in touch →</span>
+
+    </a>
+
+</section>
+
+
+
 <!-- ABOUT -->
 
-<section id="about">
+<section id="about" class="content-section">
 
     <p class="section-label">
         ABOUT ME
@@ -109,9 +226,10 @@
 </section>
 
 
+
 <!-- SKILLS -->
 
-<section id="skills">
+<section id="skills" class="content-section">
 
     <p class="section-label">
         SKILLS
@@ -136,9 +254,10 @@
 </section>
 
 
+
 <!-- SERVICES -->
 
-<section id="services">
+<section id="services" class="content-section">
 
     <p class="section-label">
         SERVICES
@@ -148,7 +267,9 @@
         How I can help
     </h2>
 
+
     <div class="services-grid">
+
 
         <div class="service-card">
 
@@ -205,46 +326,123 @@
 
         </div>
 
+
+        <div class="service-card consultant-card">
+
+            <h3>
+                Tech Consultant
+            </h3>
+
+            <p>
+                Helping you understand your technology needs
+                and find practical digital solutions for your idea
+                or business.
+            </p>
+
+            <a href="#appointment" class="card-link">
+                Book an appointment →
+            </a>
+
+        </div>
+
+
     </div>
 
 </section>
 
 
+
 <!-- PROJECTS -->
 
-<section id="projects">
+<section id="projects" class="content-section">
 
     <p class="section-label">
         PROJECTS
     </p>
 
     <h2>
-        My work
+        What I'm building
     </h2>
 
     <div class="project-card">
 
-        <h3>
-            Portfolio Website
-        </h3>
+        <div>
 
-        <p>
-            A personal portfolio website designed and developed
-            to showcase my skills, services and future projects.
-        </p>
+            <span class="project-status">
+                IN DEVELOPMENT
+            </span>
 
-        <a href="#contact" class="project-link">
-            Work with me
-        </a>
+            <h3>
+                Real-World Digital Solutions
+            </h3>
+
+            <p>
+                I'm currently developing and working on digital
+                projects focused on solving real-world problems.
+            </p>
+
+            <p>
+                My goal isn't just to create websites or software
+                that look good. I want to build practical digital
+                solutions that make everyday tasks easier, help
+                businesses grow, and create real value for the
+                people who use them.
+            </p>
+
+            <p>
+                More details will be shared as the projects develop.
+            </p>
+
+        </div>
 
     </div>
 
 </section>
 
 
+
+<!-- AI CREATIVE WORK -->
+
+<section class="content-section">
+
+    <p class="section-label">
+        AI CREATIVE WORK
+    </p>
+
+    <h2>
+        AI for Creativity
+    </h2>
+
+    <p>
+        I also use AI creatively to explore ideas, develop visual
+        concepts, create content, and turn ideas into engaging
+        digital experiences.
+    </p>
+
+
+    <div class="video-card">
+
+        <div class="video-placeholder">
+
+            <span>
+                Your work video will appear here
+            </span>
+
+        </div>
+
+        <p class="video-note">
+            Space for your creative work and project demonstrations.
+        </p>
+
+    </div>
+
+</section>
+
+
+
 <!-- PROCESS -->
 
-<section id="process">
+<section id="process" class="content-section">
 
     <p class="section-label">
         MY PROCESS
@@ -254,58 +452,279 @@
         From idea to reality.
     </h2>
 
+
     <div class="process-list">
 
+
         <div>
-            <strong>01 — Discover</strong>
+
+            <strong>
+                01 — Discover
+            </strong>
+
             <p>
                 Understand your idea and what you want to achieve.
             </p>
+
         </div>
 
+
         <div>
-            <strong>02 — Plan</strong>
+
+            <strong>
+                02 — Plan
+            </strong>
+
             <p>
                 Work out the structure, features and user journey.
             </p>
+
         </div>
 
+
         <div>
-            <strong>03 — Design</strong>
+
+            <strong>
+                03 — Design
+            </strong>
+
             <p>
                 Create a clean and simple experience for your users.
             </p>
+
         </div>
 
+
         <div>
-            <strong>04 — Build</strong>
+
+            <strong>
+                04 — Build
+            </strong>
+
             <p>
                 Turn the design into a working website.
             </p>
+
         </div>
 
+
         <div>
-            <strong>05 — Test</strong>
+
+            <strong>
+                05 — Test
+            </strong>
+
             <p>
                 Check the website and fix problems before launch.
             </p>
+
         </div>
 
+
         <div>
-            <strong>06 — Launch</strong>
+
+            <strong>
+                06 — Launch
+            </strong>
+
             <p>
                 Get everything ready and put the website online.
             </p>
+
         </div>
+
 
     </div>
 
 </section>
 
 
+
+<!-- CLIENT AREA -->
+
+<section class="client-section">
+
+    <p class="section-label">
+        CLIENT AREA
+    </p>
+
+    <h2>
+        Let's work together.
+    </h2>
+
+
+    <div class="client-grid">
+
+
+        <!-- APPOINTMENT -->
+
+        <div id="appointment" class="client-card">
+
+            <h3>
+                Book an Appointment
+            </h3>
+
+            <p>
+                Have a project or technology idea you'd like
+                to discuss? Book a consultation.
+            </p>
+
+            <form>
+
+                <input
+                    type="text"
+                    placeholder="Your name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    placeholder="Your email"
+                    required
+                >
+
+                <input
+                    type="text"
+                    placeholder="What do you need help with?"
+                    required
+                >
+
+                <input
+                    type="date"
+                    required
+                >
+
+                <textarea
+                    placeholder="Tell me a little about your project"
+                    rows="4"
+                ></textarea>
+
+                <button type="submit" class="btn primary">
+                    Request Appointment
+                </button>
+
+            </form>
+
+        </div>
+
+
+
+        <!-- FEEDBACK -->
+
+        <div class="client-card">
+
+            <h3>
+                Feedback
+            </h3>
+
+            <p>
+                I'd love to hear your thoughts about your
+                experience.
+            </p>
+
+            <form>
+
+                <input
+                    type="text"
+                    placeholder="Your name"
+                >
+
+                <select>
+
+                    <option>
+                        Rate your experience
+                    </option>
+
+                    <option>
+                        Excellent
+                    </option>
+
+                    <option>
+                        Good
+                    </option>
+
+                    <option>
+                        Average
+                    </option>
+
+                    <option>
+                        Needs improvement
+                    </option>
+
+                </select>
+
+                <textarea
+                    placeholder="Your feedback"
+                    rows="5"
+                ></textarea>
+
+                <button type="submit" class="btn secondary">
+                    Send Feedback
+                </button>
+
+            </form>
+
+        </div>
+
+
+
+        <!-- COMPLAINT -->
+
+        <div class="client-card">
+
+            <h3>
+                Complaint
+            </h3>
+
+            <p>
+                Have an issue? Tell me what happened and
+                I'll look into it.
+            </p>
+
+            <form>
+
+                <input
+                    type="text"
+                    placeholder="Your name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    placeholder="Your email"
+                    required
+                >
+
+                <input
+                    type="text"
+                    placeholder="Complaint type"
+                    required
+                >
+
+                <textarea
+                    placeholder="Describe the issue"
+                    rows="5"
+                    required
+                ></textarea>
+
+                <button type="submit" class="btn secondary">
+                    Submit Complaint
+                </button>
+
+            </form>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
 <!-- CONTACT -->
 
-<section id="contact">
+<section id="contact" class="content-section">
 
     <p class="section-label">
         CONTACT
@@ -320,27 +739,42 @@
         to life? I'd love to hear about it.
     </p>
 
+
     <div class="contact-buttons">
 
-        <a href="mailto:mascultyjnr@gmail.com" class="btn primary">
+        <a
+            href="mailto:mascultyjnr@gmail.com"
+            class="btn primary"
+        >
             Email Me
         </a>
 
-        <a href="https://wa.me/2349072084930" class="btn secondary">
+
+        <a
+            href="https://wa.me/2349072084930"
+            class="btn secondary"
+        >
             WhatsApp Me
         </a>
 
     </div>
 
+
     <p class="contact-info">
+
         mascultyjnr@gmail.com
+
         <br>
+
         09072084930
+
     </p>
 
 </section>
 
+
 </main>
+
 
 
 <footer>
@@ -351,6 +785,7 @@
 
 </footer>
 
+
 </body>
 
-</html>
+        </html>
