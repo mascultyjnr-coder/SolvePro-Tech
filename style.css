@@ -39,8 +39,9 @@ header {
 }
 
 .logo {
-    font-size: 25px;
-    font-weight: 700;
+    width: 160px;
+    height: auto;
+}
     color: #17351f;
 }
 
