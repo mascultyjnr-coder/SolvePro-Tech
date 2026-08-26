@@ -501,12 +501,14 @@ footer p {
 
 /* MOBILE */
 
-@media (max-width: 768px) {
-    .profile-logo {
-    width: 20px;
-    height: 20px;
-    }
-
+.profile-logo {
+    width: 16px !important;
+    height: 16px !important;
+    max-width: 16px !important;
+    max-height: 16px !important;
+    object-fit: cover;
+    border-radius: 50%;
+}
     .nav-links {
         width: 100%;
         justify-content: center;
