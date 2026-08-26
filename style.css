@@ -501,12 +501,10 @@ footer p {
 
 /* MOBILE */
 
-@media (max-width: 800px) {
-
-    .navbar {
-        padding: 18px 5%;
-        flex-direction: column;
-        gap: 15px;
+@media (max-width: 768px) {
+    .profile-logo {
+        width: 34px;
+        height: 34px;
     }
 
     .nav-links {
