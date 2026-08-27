@@ -102,12 +102,13 @@ header {
 }
 
 .profile-placeholder img {
-    width: 90%;
-    height: 90%;
-    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
     object-position: center;
     display: block;
-};
+    padding: 2px;
+}
 
 .hero-text-area {
     max-width: 800px;
